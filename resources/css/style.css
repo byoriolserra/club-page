@@ -1,0 +1,9 @@
+/* UNIVERSAL */
+
+body {
+    font-family: 'Castoro', serif;
+    width: 100%;
+    background-color: #F1E9DB;
+    display: grid;
+    grid-template: 12 / 12;
+}
