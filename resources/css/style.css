@@ -3,7 +3,24 @@
 body {
     font-family: 'Castoro', serif;
     width: 100%;
+    height: auto;
     background-color: #F1E9DB;
+}
+
+.grid {
     display: grid;
-    grid-template: 12 / 12;
+    width: 100%;
+    height: 5rem;
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+}
+
+/* HEADER */
+
+header {
+    grid-area: 1 / 1 /  2 / 13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #507DBC;
+    color: white;
 }
