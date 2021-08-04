@@ -141,15 +141,24 @@ figcaption {
 /* FOOTER */
 .footer {
     grid-area: 12 / 1 / 13 / 13;
+    background-color: #253237;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    align-self: end;
+    padding: 0 2rem;
 }
 
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 
-
-
-
-
-
-
-.footer {
-    display: none; 
+.footer li {
+    display: inline-block;
+    margin-left: 1rem;
 }
