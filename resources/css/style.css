@@ -120,9 +120,22 @@ figcaption {
     color: white;
 }
 
+/* JOIN */
 
+.join {
+    grid-area: 9 / 4 / 11 / 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-
+.join h3 {
+    padding: 1rem 3rem;
+    background-color: #507dbc59;
+    border-radius: 15rem;
+    font-style: italic;
+}
 
 
 /* FOOTER */
@@ -137,7 +150,6 @@ figcaption {
 
 
 
-
-.join, .footer {
+.footer {
     display: none; 
 }
